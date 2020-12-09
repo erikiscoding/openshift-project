@@ -11,4 +11,5 @@ def hello():
     print("bye bye now")
 
 if __name__ == "__main__":
+    application.debug = True
     application.run()
