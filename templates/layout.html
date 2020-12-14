@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-<head>Lee Lewis: CSC227 Final Project</head>
+<h3 style="font: bold; max-width: 400px; margin: 10px auto; padding: 16px; background: lightsalmon; text-align: center;
+font-family: Arial, Helvetica, sans-serif; font-weight: bolder; color: #f7f7f7;">Lee Lewis: CSC227 Final Project</h3>
+<title>Currency Conversion Calculator</title>
 
 <body>
-    <h1>Currency Converter</h1>
-    <form method="POST">
-        <label for="usd">Enter an amount of USD:</label>
+    <h1 style="background: lightcoral; padding: 20px 0; font-size: 140%; font-weight: 300; text-align: center; color: #fff;
+    margin: 0 auto; font-family: Arial, Helvetica, sans-serif; padding: 16px; max-width: 400px;">Currency Converter</h1>
+    <form method="POST" style="font: bold; max-width: 400px; margin: 10px auto; padding: 16px; background: #f7f7f7;">
+        <label for="usd" style="font-family: Arial, Helvetica, sans-serif;">Enter an amount of USD:</label>
         <input name="usd">
-        <br/>
-        <label for="currencies">Choose a currency: </label>
+        <br/></br>
+        <label for="currencies" style="font-family: Arial, Helvetica, sans-serif;">Choose a currency: </label>
         <select id="currencies" name="currencies">
           <option value="EUR">EUR</option>
           <option value="JPY">JPY</option>
@@ -21,8 +23,12 @@
           <option value="SEK">SEK</option>
           <option value="NZD">NZD</option>
         </select>
-        <input type="submit" value="Convert">
+        <br/><br/>
+        <div style="text-align: center;">
+        <input type="submit" value="Convert" style="background-color: lightcoral; color: #f7f7f7;">
+      </div>
       </form>
-      <p>{{result}}</p>
+      <p style="font: bold; max-width: 400px; margin: 10px auto; padding: 16px; background: #f7f7f7; text-align: center;
+      font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">{{result}}</p>
 </body>
 </html>
